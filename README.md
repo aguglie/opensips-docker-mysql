@@ -1,6 +1,7 @@
 # OpenSIPS Docker Image with MySQL
 
-This docker image is quite the official one with support for MySQL.
+This docker image is quite the [official one](https://github.com/OpenSIPS/docker-opensips) with support for MySQL.
+
 
 ## Building the image
 You can build the docker image by running:
