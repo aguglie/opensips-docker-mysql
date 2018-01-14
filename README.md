@@ -1,7 +1,6 @@
-# OpenSIPS Docker Image
-http://www.opensips.org/
+# OpenSIPS Docker Image with MySQL
 
-Docker recipe for building and starting an OpenSIPS image
+This docker image is quite the official one with support for MySQL.
 
 ## Building the image
 You can build the docker image by running:
@@ -13,9 +12,4 @@ This command will build a docker image with OpenSIPS master version taken from
 the git repository. To build a different git version, you can run:
 ```
 OPENSIPS_VERSION=2.2 make build
-```
-
-To start the image, simply run:
-```
-make start
 ```
